@@ -236,7 +236,7 @@ bar {
 
 bindsym $mod+Shift+x exec i3lock --color '#333333'
 
-bindsym --release $mod+Shift+p exec scrot ~/screenshots/%Y-%m-%d-%T-screenshot.png -s -q 100
+bindsym --release $mod+Shift+p exec scrot ~/screenshots/%Y-%m-%d-%H%M%S-screenshot.png -s -q 100
 
 # Screen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10 
