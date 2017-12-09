@@ -267,3 +267,4 @@ exec chromium
 exec pavucontrol
 exec arandr
 exec hipchat4
+exec nm-applet
